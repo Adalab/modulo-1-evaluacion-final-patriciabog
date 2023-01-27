@@ -1,7 +1,9 @@
-// fonts
-$font-main: 'Roboto', sans-serif;
+:root {
+    font-size: 62.5%;
+    --orange: #f26002;
+    --grey: #979797;
+    --greyish-brown: #4a4a4a;
+    --white: #ffffff;
+    --font-h: 'Rubik', sans-serif;
 
-// colors
-$color-bg: #f3f4f5;
-$color-secondary: #999;
-
+}
