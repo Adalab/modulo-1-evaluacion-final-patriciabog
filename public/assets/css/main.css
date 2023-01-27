@@ -4,7 +4,7 @@
   --grey: #F2F2F2;
   --greyish-brown: #4a4a4a;
   --white: #ffffff;
-  --font-h: 'Rubik', sans-serif; }
+  --font-family: 'Roboto', sans-serif; }
 
 .code {
   font-size: 16px;
@@ -29,6 +29,9 @@
   margin: 0;
   padding: 0; }
 
+html {
+  font-size: 62.5%; }
+
 .header {
   position: fixed;
   width: 37px;
@@ -47,6 +50,36 @@
   width: 13px;
   height: 11, px; }
 
+.footer {
+  height: 465px;
+  background-color: var(--greyish-brown);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  padding-left: 109px;
+  padding-right: 109px;
+  padding-top: 65px;
+  padding-bottom: 36px; }
+  .footer .footer-menu-one {
+    color: var(--white);
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    height: 120px; }
+  .footer .footer-menu-two {
+    color: var(--white);
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    height: 60px; }
+  .footer .footer-end {
+    color: var(--white);
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center; }
+
 .hero {
   background-image: url("../images/cover.jpeg");
   display: flex;
@@ -61,12 +94,12 @@
   position: relative; }
 
 .hero-title {
-  font-size: 3rem; }
-  .hero-title .h2 {
-    font-size: 3rem; }
+  font-size: 2.5rem;
+  text-align: center; }
 
 .hero-title-two {
-  font-size: 1.5rem; }
+  font-size: 1rem;
+  text-align: center; }
 
 .box-one {
   height: 376px;
@@ -104,15 +137,41 @@
       font-size: 2rem; }
 
 .container {
+  display: grid;
+  justify-content: center;
+  text-align: center;
   height: 624px;
-  background-color: var(--grey); }
+  background-color: var(--grey);
+  gap: 10px;
+  padding-left: 68px;
+  padding-right: 68px; }
   .container .container-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
     padding-top: 29px;
     text-align: center; }
-  .container .container-article {
+  .container .container-p {
     display: grid;
-    grid-column: 1fr; }
+    grid-template-columns: span 2;
+    grid-template-rows: span 2;
+    font-size: 1.8rem;
+    padding: 10px; }
+  .container .container-button {
+    border-radius: 22px;
+    text-align: center;
+    height: 4.5rem;
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--orange);
+    margin-left: 23px; }
+    .container .container-button .button {
+      color: var(--white);
+      padding-left: 10px;
+      padding-right: 10px;
+      text-decoration: none;
+      text-align: center;
+      font-size: 2rem; }
 
 /*# sourceMappingURL=main.css.map */

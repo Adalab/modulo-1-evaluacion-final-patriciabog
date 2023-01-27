@@ -5,7 +5,6 @@
     align-items: center;
     flex-direction: column;
     height: 528.8px;
-    
     background-size: contain;
     color: white;
     background-repeat: no-repeat;
@@ -14,13 +13,13 @@
 }
 
 .hero-title {
-    font-size: 3rem;
-    .h2 {
-        font-size: 3rem;
-    }
+    font-size: 2.5rem;
+    text-align: center;
+    
 }
 .hero-title-two {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    text-align: center;
 }
 
 
@@ -71,20 +70,48 @@
 }
 
 .container {
-
+        display: grid;
+        justify-content: center;
+        text-align: center;
         height: 624px;
         background-color: var(--grey);
-        .container-title {
-            font-size: 2rem;
+        gap: 10px;
+        padding-left: 68px;
+        padding-right: 68px;
+        .container-title { 
+            font-size: 1.8rem;
             font-weight: bold;
             padding-top: 29px;
             text-align: center;
         }
        
-        .container-article {
+        .container-p {
             display: grid;
-            grid-column: 1fr;
+            grid-template-columns: span 2;
+            grid-template-rows: span 2;
+            font-size: 1.8rem;
+            padding: 10px;
+           }
+        .container-button  {
+                border-radius: 22px;
+                text-align: center;
+                height: 4.5rem;
+                width: 18rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: var(--orange);
+               margin-left: 23px;
+               .button {
+                    color: var(--white);
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    text-decoration: none;
+                    text-align: center;
+                    font-size: 2rem;
 
-     }
+               }
+        } 
     
 }
+ 

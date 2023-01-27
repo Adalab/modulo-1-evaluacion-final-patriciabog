@@ -1,1 +1,39 @@
 
+.footer {
+    height: 465px;
+    background-color: var(--greyish-brown);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    padding-left: 109px;
+    padding-right: 109px;
+    padding-top: 65px;
+    padding-bottom: 36px;
+  
+        .footer-menu-one {
+          color: var(--white);
+          list-style: none;
+          font-size: 1.5rem;
+          text-align: center;
+          height: 120px;
+
+             }
+        .footer-menu-two {
+           color: var(--white);
+           list-style: none;
+           font-size: 1.5rem;
+           text-align: center;
+           height: 60px;
+       }
+
+       .footer-end {
+            color: var(--white);
+            list-style: none;
+            font-size: 1.5rem;
+            text-align: center;
+            
+       } 
+    
+}
