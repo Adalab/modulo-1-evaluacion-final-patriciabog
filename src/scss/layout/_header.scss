@@ -1,4 +1,22 @@
 .header {
   position: fixed;
-  width: 37px 34px;
+  width: 37px;
+  height: 34px;
+  background-color: rgb(255, 111, 0);
+  
+  
+}
+
+.header-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px;
+}
+.menu-img {
+    width: 13px;
+    height: 11, px;
+}
+.hero {
+  background-image: url('../images/cover.jpeg');
 }
