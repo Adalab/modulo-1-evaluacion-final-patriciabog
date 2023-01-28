@@ -4,7 +4,8 @@
   --grey: #F2F2F2;
   --greyish-brown: #4a4a4a;
   --white: #ffffff;
-  --font-family: 'Roboto', sans-serif; }
+  --font-p: 'Roboto', sans-serif;
+  --font-h: 'Roboto Slab', serif; }
 
 .code {
   font-size: 16px;
