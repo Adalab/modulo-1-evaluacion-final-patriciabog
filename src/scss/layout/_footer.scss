@@ -1,11 +1,13 @@
+/* This is the button to go up */
+
 .go-up {
-   position: relative;
-   bottom: 3rem;
-   left: 45%;
-   display: flex;
-   justify-content: flex-start;
-   text-align: center;
-   z-index: 10;
+    position: relative;
+    bottom: 3rem;
+    left: 45%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    z-index: 10;
 }
 
 .up {
@@ -20,9 +22,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    
+    position: absolute;   
 }
+
 @media all and (min-width: 768px) {
     .go-up {
          margin-left: 30px;
@@ -31,6 +33,8 @@
  @media all and (min-width: 1200px) {
 
  }
+
+/* This is the footer, has been used flex */
 
 .footer {
     height: 465px;
@@ -44,32 +48,32 @@
     padding-right: 109px;
     padding-top: 65px;
     padding-bottom: 36px;
+    font-family: var(--font-p);
   
         .footer-menu-one {
-          color: var(--white);
-          list-style: none;
-          font-size: 1.6rem;
-          text-align: center;
-          height: 120px;
+            color: var(--white);
+            list-style: none;
+            font-size: 1.6rem;
+            text-align: center;
+            height: 120px;
 
-             }
+        }
         .footer-menu-two {
-           color: var(--white);
-           list-style: none;
-           font-size: 1.6rem;
-           text-align: center;
-           height: 60px;
-       }
+            color: var(--white);
+            list-style: none;
+            font-size: 1.6rem;
+            text-align: center;
+            height: 60px;
+        }
 
        .footer-end {
             color: var(--white);
             list-style: none;
             font-size: 1.4rem;
-            text-align: center;
-            
-       } 
-    
+            text-align: center;    
+        }  
 }
+
  @media all and (min-width: 768px) {
     .footer {
         display: flex;
