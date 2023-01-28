@@ -97,12 +97,18 @@ html {
     font-size: 1.6rem;
     text-align: center;
     height: 120px; }
+    .footer .footer-menu-one .menu-one {
+      color: var(--white);
+      text-decoration: none; }
   .footer .footer-menu-two {
     color: var(--white);
     list-style: none;
     font-size: 1.6rem;
     text-align: center;
     height: 60px; }
+    .footer .footer-menu-two .menu-two {
+      color: var(--white);
+      text-decoration: none; }
   .footer .footer-end {
     color: var(--white);
     list-style: none;
