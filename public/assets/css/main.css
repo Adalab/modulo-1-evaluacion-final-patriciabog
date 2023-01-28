@@ -73,6 +73,12 @@ html {
   align-items: center;
   position: absolute; }
 
+/* This  is an animation with :hover */
+.up:hover {
+  transform: scale(1.5);
+  background-color: #04ae65;
+  transition: all .3s ease-in-out; }
+
 @media all and (min-width: 768px) {
   .go-up {
     margin-left: 30px; } }
@@ -212,7 +218,8 @@ html {
     justify-content: center;
     align-items: center;
     border: solid 2px var(--orange);
-    margin-top: 30px; }
+    margin-top: 30px;
+    /*This an animation to disappear the word "Compar" with :hover*/ }
     .box-one .article .box-one-button .button {
       color: var(--orange);
       padding-left: 10px;
@@ -221,6 +228,9 @@ html {
       text-align: center;
       font-size: 2rem;
       font-family: var(--font-p); }
+    .box-one .article .box-one-button a:hover {
+      -webkit-text-fill-color: transparent;
+      transition: all 0.3s ease-in-out; }
 
 @media all and (min-width: 768px) {
   .box-one {
@@ -273,7 +283,8 @@ html {
     justify-content: center;
     align-items: center;
     background-color: var(--orange);
-    margin-left: 23px; }
+    margin-left: 23px;
+    /* :hover */ }
     .container .container-button .button {
       color: var(--white);
       padding-left: 10px;
@@ -282,6 +293,8 @@ html {
       text-align: center;
       font-size: 2rem;
       font-family: var(--font-p); }
+    .container .container-button a:hover {
+      background-color: #b608ea; }
 
 @media all and (min-width: 768px) {
   .container {
