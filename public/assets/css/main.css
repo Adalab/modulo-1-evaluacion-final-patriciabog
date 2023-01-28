@@ -48,7 +48,28 @@ html {
 
 .menu-img {
   width: 13px;
-  height: 11, px; }
+  height: 11px; }
+
+.go-up {
+  position: relative;
+  bottom: 3rem;
+  left: 43%;
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  z-index: 10; }
+
+.up {
+  background-color: var(--white);
+  width: 45px;
+  height: 45px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; }
 
 .footer {
   height: 465px;
@@ -98,8 +119,31 @@ html {
   text-align: center; }
 
 .hero-title-two {
+  padding: 34px;
   font-size: 1rem;
   text-align: center; }
+
+.down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 37px;
+  margin-top: 78px; }
+
+.down-image {
+  background-color: var(--white);
+  width: 45px;
+  height: 45px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 50px;
+  font-size: 11px;
+  line-height: 32px;
+  text-transform: uppercase;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .box-one {
   height: 376px;

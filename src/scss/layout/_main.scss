@@ -10,6 +10,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+   
 }
 
 .hero-title {
@@ -18,8 +19,34 @@
     
 }
 .hero-title-two {
+    padding: 34px;
     font-size: 1rem;
     text-align: center;
+}
+.down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 37px;
+    margin-top: 78px;
+    
+}
+.down-image {
+        background-color: var(--white);
+        width: 45px;
+        height: 45px;
+        margin: 5px;
+        padding: 10px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        border-radius: 50px;
+        font-size: 11px;
+        line-height: 32px;
+        text-transform: uppercase;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
 
 
@@ -101,7 +128,7 @@
                 justify-content: center;
                 align-items: center;
                 background-color: var(--orange);
-               margin-left: 23px;
+                margin-left: 23px;
                .button {
                     color: var(--white);
                     padding-left: 10px;
