@@ -1,3 +1,16 @@
+/*@import 'components/code';
+@import 'components/links';
+@import 'layout/page';
+@import 'pages/index';
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
 :root {
   font-size: 62.5%;
   --orange: #f26002;
@@ -6,32 +19,6 @@
   --white: #ffffff;
   --font-p: 'Roboto', sans-serif;
   --font-h: 'Roboto Slab', serif; }
-
-.code {
-  font-size: 16px;
-  background: #d8d8d8;
-  padding: 0 5px;
-  border-radius: 5px; }
-
-.link__adalab:hover {
-  background-color: #099d8d;
-  color: #fff; }
-
-.link__github:hover {
-  background-color: #CCC;
-  color: #000; }
-
-.main__list {
-  padding-left: 2rem;
-  padding-bottom: 20px; }
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0; }
-
-html {
-  font-size: 62.5%; }
 
 .header {
   position: fixed;
