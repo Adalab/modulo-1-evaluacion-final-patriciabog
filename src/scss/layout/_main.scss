@@ -49,6 +49,31 @@
         align-items: center;
 }
 
+ @media all and (min-width: 768px) {
+    .hero {
+        
+    }
+     .hero-title {
+        font-size: 7.5rem;
+     }
+     .hero-title-two {
+        font-size: 2.4rem;
+     }
+ }
+
+ @media all and (min-width: 1200px) {
+    .hero {
+        height: 804px;
+    }
+     .hero-title {
+        font-size: 10rem;
+     }
+
+     .hero-title-two {
+        font-size: 2.4rem;
+     }
+}
+ 
 
 .box-one {
     height: 376px;
@@ -82,8 +107,8 @@
              justify-content: center;
              align-items: center;
              border: solid 2px var(--orange);
-            
-           
+             margin-top: 30px;
+               
             .button {
                     color: var(--orange);
                     padding-left: 10px;
@@ -96,29 +121,63 @@
     }      
 }
 
+  @media all and (min-width: 768px) {
+    .box-one {
+        height: 330px;  
+        .article-p {
+            height: 39px;
+        }
+    }
+        
+     
+  }
+
+  @media all and (min-width: 1200px) {
+    .box-one {
+     height: 360px;
+    }
+  }
+
 .container {
         display: grid;
+        grid-template-rows: 1fr 3fr 1fr;
+        padding-bottom: 49px;
         justify-content: center;
+        align-items: center;
         text-align: center;
         height: 624px;
         background-color: var(--grey);
-        gap: 10px;
         padding-left: 68px;
         padding-right: 68px;
+
         .container-title { 
-            font-size: 1.8rem;
+            
             font-weight: bold;
             padding-top: 29px;
-            text-align: center;
+          
+            h2 {
+               padding: 2px;
+               margin-left: 5px;
+               font-size: 2rem;
+               font-weight: bold;
+            } 
         }
        
         .container-p {
-            display: grid;
-            grid-template-columns: span 2;
-            grid-template-rows: span 2;
+            grid-column: span 1;
+            grid-row: span 3;
             font-size: 1.8rem;
-            padding: 10px;
-           }
+            
+            .p {
+              flex-direction: column;
+              padding: 20px;
+            }
+            h3 {
+               margin-bottom: 10px;
+               font-size: 1.8rem;
+            }
+         }
+           
         .container-button  {
                 border-radius: 22px;
                 text-align: center;
@@ -129,6 +188,7 @@
                 align-items: center;
                 background-color: var(--orange);
                 margin-left: 23px;
+
                .button {
                     color: var(--white);
                     padding-left: 10px;
@@ -136,9 +196,74 @@
                     text-decoration: none;
                     text-align: center;
                     font-size: 2rem;
-
-               }
-        } 
-    
+                   }
+              }
+        
+         
 }
  
+@media all and (min-width: 768px) {
+      .container {
+          display: grid;
+          grid-template-columns: span 1;
+          grid-template-rows: span 3;
+          height: 410px;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+
+          .container-title {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                font-size: 2.8rem;
+                margin-left: 200px;
+           
+          }
+          
+           .container-p {
+            display: grid;
+            grid-column: span 3;
+            grid-row: span 1;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+            padding: 30px;
+            gap: 40px;
+           }
+           .container-button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                 margin-left: 300px;
+           }
+
+      }
+}
+
+@media all and (min-width: 1200px) {
+    .container {
+      height: 427px;
+      .container-title {
+        h2 {
+        font-size: 3.2rem;
+        }
+      }
+      .container-p {
+        h3 {
+            font-size: 2.4rem;
+        }
+        p {
+            font-size: 20px;
+        }
+      }
+     .container-button {
+        justify-content: center;
+        align-items: center;
+        margin-left: 290px;
+     }
+
+    }
+}
