@@ -99,7 +99,7 @@ html {
     .footer .footer-menu-one .menu-one {
       color: var(--white);
       text-decoration: none;
-      text-transform: capitalize; }
+      text-transform: uppercase; }
   .footer .footer-menu-two {
     color: var(--white);
     list-style: none;
@@ -113,7 +113,7 @@ html {
     .footer .footer-menu-two .menu-two {
       color: var(--white);
       text-decoration: none;
-      text-transform: capitalize; }
+      text-transform: uppercase; }
   .footer .footer-end {
     color: var(--white);
     list-style: none;
@@ -135,7 +135,7 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 800px;
+  height: 528.8px;
   background-size: contain;
   color: white;
   background-repeat: no-repeat;
@@ -147,7 +147,7 @@ html {
   text-align: center;
   font-family: var(--font-h);
   width: 300px;
-  text-transform: capitalize; }
+  text-transform: uppercase; }
 
 .hero-title-two {
   padding: 34px;
